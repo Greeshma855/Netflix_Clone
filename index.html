@@ -4,94 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise-5</title>
-    <style>
-        * {
-            margin: 0;
-        }
-        header {
-            position: sticky;
-            top: 0px;
-            background-color: rgb(193, 83, 248);
-            padding: 10px;
-        }
-        ul li {
-            list-style: none;
-            margin: 15px;
-            padding: 5px;
-            display: inline;
-        }
-        .boxes{
-            height:65vh;
-            background-color: rgb(224, 208, 239);
-            border: 5px solid rgb(137, 18, 248);
-        }
-
-        .box{
-            border: 2px solid black;
-            height: 250px;
-            width: 250px;
-            display: inline-block;
-            position:relative;
-            top:100px;
-            z-index: 1;
-            background-color: rgb(72, 10, 130);
-        }
-        .box1{
-            position:relative;
-            left:270px;
-        }
-        .box2{
-            position:relative;
-            right:270px;
-            float:right;
-        }
-        .content{
-            position:relative;
-            left:450px;
-            margin:30px;
-            padding:40px;
-            border:2px solid red;
-            background-color: rgb(192, 135, 246);
-            width:20vw;
-            border-radius: 10px;
-        }
-        img{
-            position:fixed;
-            top:520px;
-            left:1200px;
-            float:right;
-        }
-        .foot{
-            border:2px solid black;
-            padding:20px;
-        }
-    </style>
+    <title>Netflix-clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="nava">
-            <ul>
-                <li>About</li>
-                <li>Home</li>
-                <li>Contact</li>
-                <li>Services</li>
-            </ul>
+    <div class="main">
+        <nav>
+            <span><img src="assets/images/logo.svg" alt="logo"></span>
+            <div class="flex">
+                <button>English</button>
+                <button>Sign In</button>
+            </div>
+        </nav>
+        <div class="box">
         </div>
-    </header>
-    <main>
-        <div class="boxes">
-            <div class="box box1">box1</div>
-            <div class="box box2">box2</div>
+        <div class="hero">
+            <span>Unlimited movies,
+                TV <br>shows and more</span>
+            <span>Starts at ₹149. Cancel at any time.</span>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span>
+            <div>
+                <input type="text" placeholder="Email Address">
+                <button>Get Started</button>
+            </div>
         </div>
-        <div class="content">Sigma Web Development Express</div>
-    </main>
-    <footer>
-        <div><img src="https://png.pngtree.com/png-vector/20210329/ourlarge/pngtree-purple-circle-png-image_3140945.jpg" alt="" height="45px"></div>
-        <div class="foot">Copyrighted content.take the permission of the owner.</div>
-    </footer>
-
+    </div>
 </body>
 
 </html>
