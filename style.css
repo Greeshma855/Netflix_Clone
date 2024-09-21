@@ -84,7 +84,8 @@ nav button {
     background-image: linear-gradient(to right, rgb(255, 0, 200) 0%, rgb(255, 0, 13) 50%, rgb(255, 0, 221) 100%);
 }
 
-.btn,.main input{
+.btn,
+.main input {
     padding: 10px 26px;
     border-radius: 5px;
     border: 1px solid white;
@@ -102,66 +103,129 @@ nav button {
     cursor: pointer;
 }
 
-.btn-red-gs,.main input{
+.btn-red-gs,
+.main input {
     padding: 10px 40px;
     font-size: 24px;
     cursor: pointer;
 }
 
-.reason{
-    width:20vw;
-    padding:20px;
+.reason {
+    width: 20vw;
+    padding: 20px;
     font-size: 24px;
     font-weight: 700;
-    color:white;
-    position:relative;
-    left:140px;
+    color: white;
+    position: relative;
+    left: 140px;
 }
-.first{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    height:30vh;
-    max-width:100vw ;
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    height: 30vh;
+    max-width: 100vw;
     margin: 60px 150px;
-    color:white;
+    color: white;
 }
-.first div{
-    color:rgba(255, 255, 255, 0.705);
-    height:45vh;
-    width:40vw;
-    margin:5px;
-    border:2px solid black;
-    border-radius:20px;
+
+.first div {
+    color: rgba(255, 255, 255, 0.705);
+    height: 45vh;
+    width: 40vw;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
     padding: 15px;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 135, 246, 0.181), rgba(249, 0, 153, 0.123));
+    background-image: linear-gradient(rgb(26, 33, 69), rgb(33, 15, 26));
     font-weight: 600;
     font-size: 18px;
 }
-h3{
-    color:white;
+
+h3 {
+    color: white;
 }
-.FAQ{
-    display:flex;
+
+.FAQ {
+    display: flex;
     flex-direction: column;
-    position:relative;
-    left:20px;
-    margin:130px;
-    color:white;
+    position: relative;
+    left: 20px;
+    margin: 130px;
+    color: white;
 }
-.FAQ h3{
-    position:relative;
-    left:10px;
+
+.FAQ h3 {
+    position: relative;
+    left: 10px;
     font-weight: 700;
     font-size: 24px;
 }
-.FAQ .box{
-    margin:10px;
-    padding:25px;
-    display:flex;
+
+.FAQ .box {
+    margin: 5px;
+    padding: 25px;
+    display: flex;
     justify-content: space-between;
     background-color: rgb(50, 50, 50);
     font-weight: 400;
     font-size: 24px;
+}
+
+.FAQ .box:hover {
+    transition: all 0.1s ease-out;
+    background-color: rgb(78, 78, 78);
+}
+.subscribe{
+    margin:100px;
+    color:white;
+    text-align:center;
+    font-weight: 400;
+    font-size: 16px;
+    padding:20px;
+}
+.subscribe input {
+    padding: 15px 86px;
+    border:1px solid grey;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:rgba(38, 73, 138, 0.284);
+}
+footer span {
+    position: relative;
+    left: 160px;
+    bottom: 30px;
+    font-style: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 75vw;
+    margin: auto;
+}
+
+.footer a {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ref {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.last{
+    text-align: center;
+    color: white;
+    margin: 20px;
 }
